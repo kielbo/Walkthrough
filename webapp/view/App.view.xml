@@ -1,12 +1,14 @@
-<!--controllerName -> tell which controler to use
-    xmlns -> main library
-    xmlns:mvc -> namespace of view -->
+<!--
+    controllerName - tell which controler to use
+    xmlns  main library
+    xmlns:mvc  namespace of view 
+    -->
 <mvc:View
     controllerName="sap.ui.demo.walkthrough.controller.App" 
     xmlns="sap.m"
     xmlns:mvc="sap.ui.core.mvc">
     <Button
-    text="press me pls..."
+    text="{i18n>showHelloButtonText}"
     press=".onShowHello"
     />
        <Input
